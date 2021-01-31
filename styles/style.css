@@ -1,0 +1,41 @@
+:root{
+    --spacing:10px;
+    --blur:10px;
+    --basecolor: #ffc600;
+}
+
+  img {
+    padding:var(--spacing);
+    background: var(--basecolor);
+    filter: blur(var(--blur));
+ }
+
+body{
+    background-color: #101033;
+    text-align: center;
+    color: white;
+    font-family: -webkit-pictograph;
+    font-size: 25px
+}
+span{
+    color: turquoise;
+    
+    font-size: 45px;
+}
+.controlers{ 
+    margin-bottom: 50px;
+}
+label{
+    color:white;
+    font-size: 35px;
+}
+h2{
+    
+    color:white;
+    font-size: 35px;
+
+}
+input{
+    width: 100px;
+
+}
